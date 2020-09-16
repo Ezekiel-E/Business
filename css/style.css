@@ -1,3 +1,5 @@
+/* I am using css media query that mobile first that means the css rules out side the media query runs for mobile then the larger the screen the code in query then work depending on rule changes */
+
 *{
   margin: 0;
   padding: 0;

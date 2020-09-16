@@ -16,7 +16,7 @@
 
   .top-nav > .group, .low-nav > .group{
     flex-direction: row;
-    width: 80%;
+    width: 100%;
     padding: 0px 0px;
     margin: 0 auto;
     align-items: center;
@@ -25,7 +25,7 @@
 
   }
   .low-nav{
-    top: 7%;
+    top: 8%;
   }
 
   .n-link{
@@ -62,5 +62,15 @@
     box-shadow: 0px 0px 5px 0px rgba(42, 148, 146, 0.231);
     border-radius: 10px;
   } */
+
+}
+
+
+@media screen and (min-width: 860px){
+
+.top-nav > .group, .low-nav > .group {
+
+    width: 80%;
+  }
 
 }
