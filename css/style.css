@@ -234,7 +234,7 @@ margin-top: 30px;
   font-size: .8rem;
 }
 
-.n-link:hover, .mybtn:hover{
+.n-link:hover, .mybtn:hover, .active{
   background: rgba(255, 255, 255, 0.129);
   color: var(--color1);
   text-shadow: 1px 1px 8px rgb(0, 0, 0);
