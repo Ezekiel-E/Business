@@ -9,8 +9,22 @@
   <link rel="stylesheet" href="./css/style2.css">
 </head>
 <body>
-  <nav class="top-nav black-lite">
-    <div class="group">
+  <nav id="top-nav" class="top-nav black-lite">
+      <!--
+    hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+    <input name="toggle" type="checkbox" />
+    <label for="toggle">
+      <!--
+      span to be styled as a hamburger button
+      -->
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <div id="top-menu" class="group">
       <address class="n-info n1">
         <ul>
           <li><a class="n-link" href="tel:+23408066115743"><i class="fa fa-phone"> +2348066115743</i></a></li>
